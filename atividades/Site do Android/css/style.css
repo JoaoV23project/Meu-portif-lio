@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Android';
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.tit{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Android';
+}
+p{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: justify;
+    width: 90%;
+}
+h1{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+.box1{
+    background: linear-gradient(to bottom, #57bd9e, #006d46);
+}
+.box2{
+    width: 50%;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box3{
+    height: 30px;
+    background-color: #30b27f;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.box4{
+    background-color: #caedd5;
+}
+.image{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.lis{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+}
